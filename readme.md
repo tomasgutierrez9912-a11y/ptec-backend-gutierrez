@@ -27,11 +27,6 @@ python manage.py createsuperuser
 Iniciar servidor:
 python manage.py runserver
 
-El servidor corre en:
-http://localhost:8000/
-
-Swagger (documentacion y pruebas):
-http://localhost:8000/swagger/
 
 ---
 
@@ -60,6 +55,8 @@ platform: Netflix (id 1)
 ---
 
 ## Endpoints y pruebas
+Las pruebas en los endpoints pueden realizarse facilmente mediante swagger, el cual incluye breve documentacion de los servicios creados:
+http://localhost:8000/swagger/
 
 #### 1. Inicio de sesión
 
