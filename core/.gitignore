@@ -1,0 +1,19 @@
+# Entorno virtual
+env/
+venv/
+ENV/
+
+# __pycache__
+__pycache__/
+*.pyc
+
+# Base de datos local
+db.sqlite3
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Configuraciones locales
+*.env
+
